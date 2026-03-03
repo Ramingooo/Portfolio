@@ -76,9 +76,9 @@ src/
 
 - **Name:** Adam Elkahlaoui (Ramingooo)
 - **Email:** [ramingooo8@gmail.com](mailto:ramingooo8@gmail.com)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [github.com/youruser](https://github.com/youruser)
+- **LinkedIn:** [linkedin.com/in/adam-elkahlaoui-237144324/](https://www.linkedin.com/in/adam-elkahlaoui-237144324/)
+- **GitHub:** [github.com/Ramingooo](https://github.com/Ramingooo)
 
 ---
 
-Developed with ❤️ by [Adam Elkahlaoui](https://github.com/youruser)
+Developed with ❤️ by [Adam Elkahlaoui](https://github.com/Ramingooo)

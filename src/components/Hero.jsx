@@ -76,11 +76,21 @@ const Hero = () => {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </div>
             </a>
-            <div className="flex items-center gap-4">
-              <a href="https://github.com" className="p-4 rounded-xl glass hover:bg-zinc-800/80 hover:scale-110 hover:-translate-y-1 transition-all duration-300">
+            <div className="flex items-center gap-4 text-white">
+              <a 
+                href="https://github.com/Ramingooo" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="p-4 rounded-xl glass hover:bg-zinc-800/80 hover:scale-110 hover:-translate-y-1 transition-all duration-300"
+              >
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com" className="p-4 rounded-xl glass hover:bg-zinc-800/80 hover:scale-110 hover:-translate-y-1 transition-all duration-300">
+              <a 
+                href="https://www.linkedin.com/in/adam-elkahlaoui-237144324/" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="p-4 rounded-xl glass hover:bg-zinc-800/80 hover:scale-110 hover:-translate-y-1 transition-all duration-300"
+              >
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>

@@ -8,11 +8,11 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "ft_transcendence",
-      description: "A real-time multiplayer Pong website with chat and matchmaking.",
+      title: "chi 7aja",
+      description: "In progress...",
       tags: ["C++", "React", "PostgreSQL"],
-      link: "https://your-live-demo.com", // 2. ADD YOUR LINK HERE
-      github: "https://github.com/youruser/repo", // 2. ADD YOUR GITHUB HERE
+      link: "#", // 2. ADD YOUR LINK HERE
+      github: "#", // 2. ADD YOUR GITHUB HERE
       image: null // 3. REPLACE 'null' with 'project1Img' after importing
     },
     {
