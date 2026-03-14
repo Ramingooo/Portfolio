@@ -1,34 +1,24 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
-
-// 1. IMPORT your images here like this:
-// import project1Img from '../assets/my-project-1.png';
 
 const Projects = () => {
   const projects = [
     {
-      title: "chi 7aja",
+      title: "Chi 7aja",
       description: "In progress...",
-      tags: ["C++", "React", "PostgreSQL"],
-      link: "#", // 2. ADD YOUR LINK HERE
-      github: "#", // 2. ADD YOUR GITHUB HERE
-      image: null // 3. REPLACE 'null' with 'project1Img' after importing
+      tags: ["Future Tech"],
+      image: null
     },
     {
       title: "Minishell",
       description: "A simplified shell implementation handling pipes and signals.",
       tags: ["C", "Unix", "Algorithms"],
-      link: "#",
-      github: "#",
       image: null
     },
     {
       title: "Math Visualizer",
       description: "Visualization tool for complex mathematical functions.",
       tags: ["React", "Three.js", "Math"],
-      link: "#",
-      github: "#",
       image: null
     }
   ];
@@ -65,31 +55,12 @@ const Projects = () => {
                 {project.description}
               </p>
               
-              <div className="flex flex-wrap gap-2 mb-8">
+              <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag, i) => (
                   <span key={i} className="text-[10px] uppercase font-bold tracking-[0.15em] text-zinc-500 bg-zinc-800/30 border border-zinc-700/30 px-3 py-1 rounded-full">
                     {tag}
                   </span>
                 ))}
-              </div>
-
-              <div className="flex items-center gap-6">
-                <a 
-                  href={project.github} 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2 text-sm font-medium"
-                >
-                  <Github className="w-5 h-5" /> Code
-                </a>
-                <a 
-                  href={project.link} 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  className="text-zinc-400 hover:text-primary transition-colors flex items-center gap-2 text-sm font-medium"
-                >
-                  <ExternalLink className="w-5 h-5" /> Demo
-                </a>
               </div>
             </div>
           </motion.div>
