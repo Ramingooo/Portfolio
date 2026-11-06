@@ -2,7 +2,6 @@
 
 A modern, responsive portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. This site showcases my journey as a Software & Web Developer and a 2nd-year Mathematics student at FSSM.
 
-![Portfolio Preview](https://via.placeholder.com/1200x600?text=Ramingooo+Portfolio+Preview)
 
 ## 🚀 Features
 
